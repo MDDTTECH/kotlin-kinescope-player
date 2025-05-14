@@ -714,10 +714,11 @@ class KinescopePlayerView(
         }
     }
 
+    // Remove titles
     private fun updateTitles() {
-        if (getVideo() == null) return
-        titleView?.text = getVideo()!!.title
-        authorView?.text = getVideo()!!.subtitle
+//        if (getVideo() == null) return
+//        titleView?.text = getVideo()!!.title
+//        authorView?.text = getVideo()!!.subtitle
     }
 
     private fun updatePlayPauseButton() {
